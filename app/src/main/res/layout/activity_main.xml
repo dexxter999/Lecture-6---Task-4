@@ -124,9 +124,9 @@
             android:id="@+id/buttonNext"
             android:layout_width="match_parent"
             android:layout_height="58dp"
-            android:layout_marginStart="80dp"
+            android:layout_marginStart="100dp"
             android:layout_marginTop="338dp"
-            android:layout_marginEnd="34dp"
+            android:layout_marginEnd="40dp"
             android:layout_marginBottom="1dp"
             android:background="@drawable/next_button"
             android:contentDescription="@string/next_button" />
