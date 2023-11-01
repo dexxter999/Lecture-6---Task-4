@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_blue"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <View
+        android:id="@+id/rectangleC"
+        android:layout_width="45dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="139dp"
+        android:layout_marginBottom="420dp"
+        android:background="@drawable/rectangle_c"
+        android:elevation="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="397dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="210dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/heading"
+            style="@style/hello"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2dp"
+            android:fontFamily="@font/sf_pro_display_bold"
+            android:gravity="top"
+            android:text="@string/hello" />
+
+        <TextView
+            android:id="@+id/letsIntroduce"
+            style="@style/lets_introd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="62dp"
+            android:fontFamily="@font/sf_pro_display"
+            android:text="@string/introduce" />
+
+        <View
+            android:id="@+id/iconPerson"
+            android:layout_width="38dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="128dp"
+            android:background="@drawable/icon" />
+
+        <EditText
+            android:id="@+id/etFullName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="128dp"
+            android:autofillHints="name"
+            android:background="@null"
+            android:fontFamily="@font/sf_pro_display"
+            android:hint="@string/full_name"
+            android:inputType="text"
+            android:textColorHint="@color/grey" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="180dp"
+            android:alpha="0.05"
+            android:background="@drawable/line" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="272dp"
+            android:alpha="0.05"
+            android:background="@drawable/line" />
+
+        <View
+            android:id="@+id/iconPerson2"
+            android:layout_width="38dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="220dp"
+            android:background="@drawable/icon" />
+
+        <EditText
+            android:id="@+id/etUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="220dp"
+            android:autofillHints="username"
+            android:background="@null"
+            android:fontFamily="@font/sf_pro_display"
+            android:hint="@string/username"
+            android:inputType="text"
+            android:textColorHint="@color/grey" />
+
+        <ImageButton
+            android:id="@+id/buttonBack"
+            android:layout_width="58dp"
+            android:layout_height="58dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="338dp"
+            android:background="@drawable/back_button"
+            android:contentDescription="@string/back_button" />
+
+        <ImageButton
+            android:id="@+id/buttonNext"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="338dp"
+            android:layout_marginEnd="34dp"
+            android:layout_marginBottom="1dp"
+            android:background="@drawable/next_button"
+            android:contentDescription="@string/next_button" />
+    </FrameLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Introduction Screen</string>
+    <string name="full_name">Your full name</string>
+    <string name="hello">Hello!</string>
+    <string name="introduce">lets introduce</string>
+    <string name="username">Username</string>
+    <string name="next">Next</string>
+    <string name="back_button">back_button</string>
+    <string name="next_button">next button</string>
+</resources>
