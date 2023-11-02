@@ -17,10 +17,12 @@
         android:layout_marginTop="139dp"
         android:layout_marginBottom="420dp"
         android:background="@drawable/rectangle_c"
-        android:elevation="4dp"
+        android:elevation="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:outlineSpotShadowColor="@color/green"
+        />
 
     <FrameLayout
         android:id="@+id/container"
